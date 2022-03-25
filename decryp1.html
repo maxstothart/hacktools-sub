@@ -288,7 +288,7 @@ $('.rerun').on('click', function () {
     } while (index == indexOld);
 
     $('.granted, .rerun').addClass('hidden');
-    password = passwords[index];
+    password = Math.random(100000000000, 999999999999);
     characters = [];
     counter = 0;
 });
